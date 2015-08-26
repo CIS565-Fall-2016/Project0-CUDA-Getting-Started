@@ -14,6 +14,8 @@ share with the world.)
 Instructions
 ============
 
+This is due **Wednesday, September 2**.
+
 **TODO (later): remove all of these instructions**, so that your README
 represents your own project. You can always read the instructions on the
 original GitHub page.
