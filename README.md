@@ -154,8 +154,9 @@ It is recommended that you use Nsight.
    * Set the *Existing Code Location* to the cloned project directory.
    * Select *CUDA Toolkit 7.0*.
    * *Finish*.
-6. Select the *cis565-* project in the Project Explorer. Build.
-7. Run the `cis565_` binary.
+6. Select the *cis565-* project in the Project Explorer. From the *Project*
+   menu, select *Build All*.
+7. From the *Run* menu, *Run*. Select the `cis565_` binary.
 
 
 ## Part 4: Modify
