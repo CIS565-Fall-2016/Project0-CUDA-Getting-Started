@@ -143,21 +143,19 @@ It is recommended that you use Nsight.
 
 1. In a terminal, navigate to your cloned project directory
    (`cd some/path`).
-2. Create a `build` directory: `mkdir build`
-   * (This "out-of-source" build makes it easy to delete the `build` directory
-     and try again if something goes wrong with the configuration.)
-3. Navigate into that directory: `cd build`
-4. Open the CMake GUI to configure the project: `cmake-gui ..`
-   * Click *Configure*.  Select the Unix Makefiles generator.
-   * If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`,
-     set `CUDA_SDK_ROOT_DIR` to your CUDA install path. This will be something
-     like: `/usr/local/cuda`
-   * Click *Generate*.
-5. Open Nsight. Set the workspace to the one *containing* your cloned repo.
-6. *File->Import...->General->Existing Projects Into Workspace*. Select
-   the project directory. *Finish.*
-7. Select the *cis565-* project in the Project Explorer. Build.
-8. Run.
+2. Type `make`.
+3. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
+   * `cd` to the build directory, then run CMake GUI: `cmake-gui ..`
+   * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.
+     This will be something like: `/usr/local/cuda`
+   * Click *Configure*, then *Generate*.
+4. Open Nsight. Set the workspace to the one *containing* your cloned repo.
+5. *File->New->Makefile Project with Existing Code*.
+   * Set the *Existing Code Location* to the cloned project directory.
+   * Select *CUDA Toolkit 7.0*.
+   * *Finish*.
+6. Select the *cis565-* project in the Project Explorer. Build.
+7. Run the `cis565_` binary.
 
 
 ## Part 4: Modify
