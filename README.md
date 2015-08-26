@@ -1,7 +1,7 @@
 CUDA Getting Started
 ====================
 
-**University of Pennsylvania, CIS 565: GPU Programming, Project 0**
+**University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * (TODO) YOUR NAME HERE
 * Tested on: (TODO) i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
@@ -19,7 +19,7 @@ represents your own project. You can always read the instructions on the
 original GitHub page.
 
 This project (and all other CUDA projects in this course) requires an NVIDIA
-graphics card with CUDA capability! Any card with Compute Capability 2.0 (sm_20)
+graphics card with CUDA capability. Any card with Compute Capability 2.0 (sm_20)
 or greater will work. Gheck your GPU on this [compatibility table](https://developer.nvidia.com/cuda-gpus).
 If you do not have a personal machine with these specs, you may use
 computers in the SIG Lab *or* machines 1-5 in Moore 100B.
@@ -33,18 +33,18 @@ soon as possible to find a solution.
 
 ## Part 1: Setting up your development environment
 
-Skip if you are developing on a lab computer.
+Skip this part if you are developing on a lab computer.
 
 ### Windows
 
 1. Make sure you are running Windows 7/8/10 and that your NVIDIA drivers are
-   up-to-date. You will need support for OpenGL 4.0 or better in this class.
+   up-to-date. You will need support for OpenGL 4.0 or better in this course.
 2. Install Visual Studio 2013 (**not** 2015).
    * 2010/2012 will also work, if you already have one installed.
    * http://www.seas.upenn.edu/cets/software/msdn/
-   * You need C++ support. None of the optional components should be necessary.
+   * You need C++ support. None of the optional components are necessary.
 3. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343).
-   * You can use the express installation. Make sure you get Nsight for Visual
+   * Use the express installation. Make sure you get Nsight for Visual
      Studio.
 4. Install [CMake](http://www.cmake.org/download/).
 5. Install [Git](https://git-scm.com/download/win).
@@ -101,8 +101,8 @@ Capability 5.0.
 Project 0 is a simple program that demonstrates CUDA and OpenGL functionality
 and interoperability, testing that CUDA has been properly installed. If the
 machine you are working on has CUDA and OpenGL 4.0 support, then when you run
-the program, you should see either one or two colors. The colors depend on your
-graphics card, so you'll probably get different results than other students.
+the program, you should see either one or two colors depending on your
+graphics card.
 
 * `src/` contains the source code.
 * `external/` contains the binaries and headers for GLEW and GLFW.
@@ -199,8 +199,7 @@ rest of your development on the lab computer.
 ## Part 6: Write-up
 
 1. Update ALL of the TODOs at the top of this README:
-   * Remove all instructions. (You can always read them on the original
-     GitHub repository.)
+   * Remove all instructions.
    * Add your name, computer, and whether it's a personal or lab computer.
    * Embed the screenshots you took.
    * Syntax help: https://help.github.com/articles/writing-on-github/
@@ -215,7 +214,7 @@ rest of your development on the lab computer.
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
    * Direct link to YOUR fork on GitHub
    * In the form of a grade (0-100+), evaluate your own performance on the
-     project so that we know what to expect.
+     project.
      (N/A for Project 0.)
    * Feedback on the project itself, if any.
 
