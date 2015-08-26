@@ -1,19 +1,15 @@
-Project 0: CUDA Getting Started
-===============================
+CUDA Getting Started
+====================
 
-CIS 565: GPU Programming
+**University of Pennsylvania, CIS 565: GPU Programming, Project 0**
 
-* TODO: YOUR NAME HERE
+* (TODO) YOUR NAME HERE
+* Tested on: (TODO) i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
 
-Final performance and testing done on:
+### (TODO: Your README)
 
-* TODO: i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
-
-### TODO: Your README
-
-(Remember, this is public, so don't put anything here that you don't want to
+Include screenshots, analysis, etc. (Remember, this is public, so don't put anything here that you don't want to
 share with the world.)
-
 
 Instructions
 ============
@@ -200,7 +196,7 @@ rest of your development on the lab computer.
 4. Take a screenshot of the timeline and save it to `images`, for Part 6.
 
 
-## Part 6: Write & Submit
+## Part 6: Write-up
 
 1. Update ALL of the TODOs at the top of this README:
    * Remove all instructions. (You can always read them on the original
@@ -212,10 +208,14 @@ rest of your development on the lab computer.
    * Make sure your README looks good on GitHub!
 3. If you have modified either of the `CMakeLists.txt` at all (aside from
    the list of `SOURCE_FILES`), you **must** test your project in Moore 100B.
+
+## Submit
 4. Open a GitHub pull request so that we can see that you have finished.
 5. Send an email to the TA (gmail: kainino1+cis565@) with:
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
    * Direct link to YOUR fork on GitHub
+   * 
+     (N/A for Project 0.)
    * Feedback on the project itself, if any.
 
 And you're done!
