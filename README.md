@@ -210,11 +210,12 @@ rest of your development on the lab computer.
    the list of `SOURCE_FILES`), you **must** test your project in Moore 100B.
 
 ## Submit
-4. Open a GitHub pull request so that we can see that you have finished.
-5. Send an email to the TA (gmail: kainino1+cis565@) with:
+1. Open a GitHub pull request so that we can see that you have finished.
+2. Send an email to the TA (gmail: kainino1+cis565@) with:
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
    * Direct link to YOUR fork on GitHub
-   * 
+   * In the form of a grade (0-100+), evaluate your own performance on the
+     project so that we know what to expect.
      (N/A for Project 0.)
    * Feedback on the project itself, if any.
 
