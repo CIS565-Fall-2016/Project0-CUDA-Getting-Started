@@ -11,29 +11,30 @@ CUDA Getting Started
 Include screenshots, analysis, etc. (Remember, this is public, so don't put anything here that you don't want to
 share with the world.)
 
-Instructions
-============
+Instructions (delete me)
+========================
 
 This is due **Wednesday, September 2**.
 
 **Summary:** In this project, you will set up your CUDA development tools and
 verify that you can build, run, and do performance analysis.
 
-**TODO (later): remove all of these instructions**, so that your README
-represents your own project, rather than the assignment. You can always read
-the instructions on the original GitHub page.
+This project is a simple program that demonstrates CUDA and OpenGL functionality
+and interoperability, testing that CUDA has been properly installed. If the
+machine you are working on has CUDA and OpenGL 4.0 support, then when you run
+the program, you should see either one or two colors depending on your
+graphics card.
 
 This project (and all other CUDA projects in this course) requires an NVIDIA
 graphics card with CUDA capability. Any card with Compute Capability 2.0 (sm_20)
 or greater will work. Gheck your GPU on this [compatibility table](https://developer.nvidia.com/cuda-gpus).
 If you do not have a personal machine with these specs, you may use
-computers in the SIG Lab *or* machines 1-5 in Moore 100B.
+computers in the SIG Lab and Moore 100B/C.
 
 **HOWEVER**: If you need to use the lab computer for your development, you will
 not presently be able to do GPU performance profiling. This will be very
 important for debugging performance bottlenecks in your program. If you do not
-have administrative access to a CUDA-capable machine, please email the TA as
-soon as possible to find a solution.
+have administrative access to any CUDA-capable machine, please email the TA.
 
 
 ## Part 1: Setting up your development environment
@@ -102,12 +103,6 @@ Capability 5.0.
 
 
 ## Part 3: Build & Run
-
-Project 0 is a simple program that demonstrates CUDA and OpenGL functionality
-and interoperability, testing that CUDA has been properly installed. If the
-machine you are working on has CUDA and OpenGL 4.0 support, then when you run
-the program, you should see either one or two colors depending on your
-graphics card.
 
 * `src/` contains the source code.
 * `external/` contains the binaries and headers for GLEW and GLFW.
@@ -203,7 +198,9 @@ rest of your development on the lab computer.
 ## Part 6: Write-up
 
 1. Update ALL of the TODOs at the top of this README:
-   * Remove all instructions.
+   * Remove all of these instructions, so that your README
+     represents your own project, rather than the assignment. You can always
+     read the instructions on the original GitHub page.
    * Add your name, computer, and whether it's a personal or lab computer.
    * Embed the screenshots you took.
    * Syntax help: https://help.github.com/articles/writing-on-github/
