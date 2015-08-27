@@ -203,7 +203,7 @@ rest of your development on the lab computer.
      represents your own project, rather than the assignment. You can always
      read the instructions on the original GitHub page.
    * Add your name, computer, and whether it's a personal or lab computer.
-   * Embed the screenshots you took.
+   * Embed the screenshots you took. (`![](images/example.png`)
    * Syntax help: https://help.github.com/articles/writing-on-github/
 2. Add, commit, and push your screenshots and README.
    * Make sure your README looks good on GitHub!
