@@ -50,8 +50,8 @@ Skip this part if you are developing on a lab computer.
    * http://www.seas.upenn.edu/cets/software/msdn/
    * You need C++ support. None of the optional components are necessary.
 3. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343).
-   * Use the express installation. Make sure you get Nsight for Visual
-     Studio.
+   * Use the Express installation. If using Custom, make sure you select
+     Nsight for Visual Studio.
 4. Install [CMake](http://www.cmake.org/download/).
 5. Install [Git](https://git-scm.com/download/win).
 
