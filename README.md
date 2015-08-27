@@ -213,7 +213,7 @@ rest of your development on the lab computer.
 1. Open a GitHub pull request so that we can see that you have finished.
 2. Send an email to the TA (gmail: kainino1+cis565@) with:
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
-   * Direct link to YOUR fork on GitHub
+   * Direct link to your pull request on GitHub
    * In the form of a grade (0-100+), evaluate your own performance on the
      project.
      (N/A for Project 0.)
