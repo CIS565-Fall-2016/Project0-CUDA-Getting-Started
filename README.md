@@ -16,9 +16,12 @@ Instructions
 
 This is due **Wednesday, September 2**.
 
+**Summary:** In this project, you will set up your CUDA development tools and
+verify that you can build, run, and do performance analysis.
+
 **TODO (later): remove all of these instructions**, so that your README
-represents your own project. You can always read the instructions on the
-original GitHub page.
+represents your own project, rather than the assignment. You can always read
+the instructions on the original GitHub page.
 
 This project (and all other CUDA projects in this course) requires an NVIDIA
 graphics card with CUDA capability. Any card with Compute Capability 2.0 (sm_20)
