@@ -168,6 +168,7 @@ It is recommended that you use Nsight.
    * Make sure to `git add` the `main.cpp` file.
    * Use `git status` to make sure you didn't miss anything.
    * Use `git commit` to save a version of your code including your changes.
+     Write a short message describing your changes.
    * Use `git push` to sync your code history to the GitHub server.
 
 ## Part 5: Analyze
@@ -211,6 +212,7 @@ rest of your development on the lab computer.
 
 ## Submit
 1. Open a GitHub pull request so that we can see that you have finished.
+   The title should be "Submission: YOUR NAME".
 2. Send an email to the TA (gmail: kainino1+cis565@) with:
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
    * Direct link to your pull request on GitHub
