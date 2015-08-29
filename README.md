@@ -50,6 +50,7 @@ Skip this part if you are developing on a lab computer.
    * http://www.seas.upenn.edu/cets/software/msdn/
    * You need C++ support. None of the optional components are necessary.
 3. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343).
+   * CUDA 7.5 is recommended.
    * Use the Express installation. If using Custom, make sure you select
      Nsight for Visual Studio.
 4. Install [CMake](http://www.cmake.org/download/).
@@ -126,7 +127,7 @@ just rebuild your VS/Nsight project to make it update itself.
      (**NOTE:** you must use Win64, as we don't provide libraries for Win32.)
    * If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`,
      set `CUDA_SDK_ROOT_DIR` to your CUDA install path. This will be something
-     like: `C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.0`
+     like: `C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5`
    * Click *Generate*.
 5. If generation was successful, there should now be a Visual Studio solution
    (`.sln`) file in the `build` directory that you just created. Open this.
@@ -150,7 +151,7 @@ It is recommended that you use Nsight.
 4. Open Nsight. Set the workspace to the one *containing* your cloned repo.
 5. *File->New->Makefile Project with Existing Code*.
    * Set the *Existing Code Location* to the cloned project directory.
-   * Select *CUDA Toolkit 7.0*.
+   * Select *CUDA Toolkit*.
    * *Finish*.
 6. Select the *cis565-* project in the Project Explorer. From the *Project*
    menu, select *Build All*.
@@ -182,7 +183,7 @@ rest of your development on the lab computer.
 
 1. Go to the Nsight menu in Visual Studio.
 2. Select *Start Performance Analysis...*.
-3. Select *Trace Application*.
+3. Select *Trace Application*. Under *Trace Settings*, enable tracing for CUDA and OpenGL.
 4. Under *Application Control*, click *Launch*.
 5. Run the program for a few seconds, then close it.
 6. At the top of the report page, select *Timeline* from the drop-down menu.
