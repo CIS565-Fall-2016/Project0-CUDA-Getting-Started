@@ -49,8 +49,8 @@ Skip this part if you are developing on a lab computer.
    * 2010/2012 will also work, if you already have one installed.
    * http://www.seas.upenn.edu/cets/software/msdn/
    * You need C++ support. None of the optional components are necessary.
-3. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343).
-   * CUDA 7.5 is recommended.
+3. Install [CUDA 7.5](https://developer.nvidia.com/cuda-downloads?sid=925343).
+   * CUDA 7.5 is recommended for its new performance profiling tools.
    * Use the Express installation. If using Custom, make sure you select
      Nsight for Visual Studio.
 4. Install [CMake](http://www.cmake.org/download/).
