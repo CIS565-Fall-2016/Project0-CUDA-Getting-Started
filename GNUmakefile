@@ -1,7 +1,7 @@
-all: build
+all: build/CMakeCache.txt
 	(cd build && make)
 
-build:
+build/CMakeCache.txt:
 	(mkdir -p build && cd build && cmake ..)
 
 clean:
