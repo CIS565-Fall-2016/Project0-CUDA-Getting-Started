@@ -48,10 +48,6 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     # Use C++11
     add_compile_options(-std=c++11)
     list(APPEND CUDA_NVCC_FLAGS "-std=c++11")
-    # Link against libstdc++ since CUDA doesn't support libc++ yet
-    add_compile_options(-stdlib=libstdc++)
-    list(APPEND CMAKE_EXE_LINKER_FLAGS "-stdlib=libstdc++")
-    list(APPEND CUDA_NVCC_FLAGS "--compiler-options;-stdlib=libstdc++")
 endif()
 
 # Linux-specific hacks/fixes
