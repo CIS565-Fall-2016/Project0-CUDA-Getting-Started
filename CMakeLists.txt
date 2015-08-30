@@ -37,7 +37,7 @@ set(CORELIBS
     "${GLEW_LIBRARY}"
     )
 
-# Compiler flags
+# Enable C++11 for host code
 set(CMAKE_CXX_STANDARD 11)
 
 # OSX-specific hacks/fixes
@@ -45,9 +45,6 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     list(APPEND CORELIBS "-framework IOKit")
     list(APPEND CORELIBS "-framework Cocoa")
     list(APPEND CORELIBS "-framework CoreVideo")
-    # Use C++11
-    add_compile_options(-std=c++11)
-    list(APPEND CUDA_NVCC_FLAGS "-std=c++11")
 endif()
 
 # Linux-specific hacks/fixes
