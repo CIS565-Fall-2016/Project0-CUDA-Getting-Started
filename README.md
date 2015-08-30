@@ -135,6 +135,10 @@ just rebuild your VS/Nsight project to make it update itself.
 6. Build. (Note that there are Debug and Release configuration options.)
 7. Run. Make sure you run the `cis565_` target (not `ALL_BUILD`) by
    right-clicking it and selecting "Set as StartUp Project".
+   * If you have switchable graphics (NVIDIA Optimus), you may need to force
+     your program to run with only the NVIDIA card. In NVIDIA Control Panel,
+     under "Manage 3D Settings," set "Multi-display/Mixed GPU acceleration"
+     to "Single display performance mode".
 
 ### OS X & Linux
 
@@ -185,6 +189,7 @@ rest of your development on the lab computer.
 2. Select *Start Performance Analysis...*.
 3. Select *Trace Application*. Under *Trace Settings*, enable tracing for CUDA and OpenGL.
 4. Under *Application Control*, click *Launch*.
+   * If you have switchable graphics (NVIDIA Optimus), see the note in Part 3.
 5. Run the program for a few seconds, then close it.
 6. At the top of the report page, select *Timeline* from the drop-down menu.
 7. Take a screenshot of this tab and save it to `images`, for Part 6.
