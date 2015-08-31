@@ -6,13 +6,26 @@ CMAKE := $(shell \
 	([ -e ${CMAKE_ALT2} ] && echo "${CMAKE_ALT2}") \
 	)
 
-all: build/CMakeCache.txt
-	(cd build && make)
+all: RelWithDebugInfo
 
-build/CMakeCache.txt:
-	(mkdir -p build && cd build && ${CMAKE} ..)
+
+Debug: build
+	(cd build && ${CMAKE} -DCMAKE_BUILD_TYPE=$@ .. && make)
+
+MinSizeRel: build
+	(cd build && ${CMAKE} -DCMAKE_BUILD_TYPE=$@ .. && make)
+
+Release: build
+	(cd build && ${CMAKE} -DCMAKE_BUILD_TYPE=$@ .. && make)
+
+RelWithDebugInfo: build
+	(cd build && ${CMAKE} -DCMAKE_BUILD_TYPE=$@ .. && make)
+
+
+build:
+	(mkdir -p build && cd build)
 
 clean:
-	(cd build && make clean)
+	((cd build && make clean) 2>&- || true)
 
-.PHONY: all clean
+.PHONY: all Debug MinSizeRel Release RelWithDebugInfo clean

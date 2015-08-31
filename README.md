@@ -8,8 +8,8 @@ CUDA Getting Started
 
 ### (TODO: Your README)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put anything here that you don't want to
-share with the world.)
+Include screenshots, analysis, etc. (Remember, this is public, so don't put
+anything here that you don't want to share with the world.)
 
 Instructions (delete me)
 ========================
@@ -26,10 +26,11 @@ the program, you should see either one or two colors depending on your
 graphics card.
 
 This project (and all other CUDA projects in this course) requires an NVIDIA
-graphics card with CUDA capability. Any card with Compute Capability 2.0 (sm_20)
-or greater will work. Gheck your GPU on this [compatibility table](https://developer.nvidia.com/cuda-gpus).
-If you do not have a personal machine with these specs, you may use
-computers in the SIG Lab and Moore 100B/C.
+graphics card with CUDA capability. Any card with Compute Capability 2.0
+(`sm_20`) or greater will work. Gheck your GPU on this [compatibility
+table](https://developer.nvidia.com/cuda-gpus).  If you do not have a personal
+machine with these specs, you may use computers in the SIG Lab and Moore
+100B/C.
 
 **HOWEVER**: If you need to use the lab computer for your development, you will
 not presently be able to do GPU performance profiling. This will be very
@@ -67,7 +68,8 @@ Skip this part if you are developing on a lab computer.
 3. Install OS X Unix Command Line Development Tools (if necessary).
 4. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343)
    (don't use cask; the CUDA cask is outdated).
-   * Make sure you get Nsight.
+   * CUDA 7.5 is recommended for its new performance profiling tools.
+   * Make sure you select Nsight.
 5. Install [Git](https://git-scm.com/download/mac)
    (or: `brew install git`).
 6. Install [CMake](http://www.cmake.org/download/)
@@ -79,7 +81,8 @@ Note: to debug CUDA on Linux, you will need an NVIDIA GPU with Compute
 Capability 5.0.
 
 1. Install [CUDA 7](https://developer.nvidia.com/cuda-downloads?sid=925343).
-   * Make sure you get Nsight.
+   * CUDA 7.5 is recommended for its new performance profiling tools.
+   * Make sure you select Nsight.
 2. Install Git (`apt-get install git` on Debian/Ubuntu).
 3. Install CMake (`apt-get install cmake` on Debian/Ubuntu).
 
@@ -146,22 +149,20 @@ just rebuild your VS/Nsight project to make it update itself.
 
 It is recommended that you use Nsight.
 
-1. In a terminal, navigate to your cloned project directory
-   (`cd some/path`).
-2. Type `make`.
-3. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
-   * `cd` to the build directory, then run CMake GUI: `cmake-gui ..`
+1. Open Nsight. Set the workspace to the one *containing* your cloned repo.
+2. *File->Import...->General->Existing Projects Into Workspace*.
+   * Select the Project 0 repository as the *root directory*.
+3. Select the *cis565-* project in the Project Explorer. From the *Project*
+   menu, select *Build All*.
+   * For later use, note that you can select different build configurations
+     under *Project->Build Configurations->Set Active...*.
+4. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
+   * In a terminal, navigate to the build directory, then run: `cmake-gui ..`
    * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.
      This will be something like: `/usr/local/cuda`
    * Click *Configure*, then *Generate*.
-4. Open Nsight. Set the workspace to the one *containing* your cloned repo.
-5. *File->New->Makefile Project with Existing Code*.
-   * Set the *Existing Code Location* to the cloned project directory.
-   * Select *CUDA Toolkit*.
-   * *Finish*.
-6. Select the *cis565-* project in the Project Explorer. From the *Project*
-   menu, select *Build All*.
-7. From the *Run* menu, *Run*. Select the `cis565_` binary.
+7. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the
+   `cis565_` binary.
 
 
 ## Part 4: Modify
