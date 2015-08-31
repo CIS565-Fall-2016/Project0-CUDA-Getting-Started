@@ -161,7 +161,8 @@ It is recommended that you use Nsight.
    * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.
      This will be something like: `/usr/local/cuda`
    * Click *Configure*, then *Generate*.
-7. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the
+5. Right click and *Refresh* the project.
+6. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the
    `cis565_` binary.
 
 
