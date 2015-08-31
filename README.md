@@ -54,7 +54,8 @@ Skip this part if you are developing on a lab computer.
      However, 7.0 is fine (and is the version on the lab computers).
    * Use the Express installation. If using Custom, make sure you select
      Nsight for Visual Studio.
-4. Install [CMake](http://www.cmake.org/download/).
+4. Install [CMake](http://www.cmake.org/download/). (Windows binaries are
+   under "Binary distributions.")
 5. Install [Git](https://git-scm.com/download/win).
 
 ### OS X
