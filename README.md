@@ -154,8 +154,8 @@ It is recommended that you use Nsight.
    * Select the Project 0 repository as the *root directory*.
 3. Select the *cis565-* project in the Project Explorer. From the *Project*
    menu, select *Build All*.
-   * For later use, note that you can select different build configurations
-     under *Project->Build Configurations->Set Active...*.
+   * For later use, note that you can select various Debug and Release build
+     configurations under *Project->Build Configurations->Set Active...*.
 4. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
    * In a terminal, navigate to the build directory, then run: `cmake-gui ..`
    * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.
