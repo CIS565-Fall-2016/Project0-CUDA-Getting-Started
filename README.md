@@ -32,10 +32,16 @@ table](https://developer.nvidia.com/cuda-gpus).  If you do not have a personal
 machine with these specs, you may use computers in the SIG Lab and Moore
 100B/C.
 
-**HOWEVER**: If you need to use the lab computer for your development, you will
-not presently be able to do GPU performance profiling. This will be very
-important for debugging performance bottlenecks in your program. If you do not
-have administrative access to any CUDA-capable machine, please email the TA.
+**If you need to use the lab computer for your development:**
+
+* Make sure that the computer you are on has a supported GPU! The first few
+  machines in each room should support CUDA Compute Capability 2.0. To check
+  the GPU model in a lab computer, open the NVIDIA Control Panel. The GPU model
+  is shown on the initial screen. (NVS 210 will work; GeForce 9300 GE will not.)
+* You will not presently be able to do GPU performance profiling. This will be
+  very important for debugging performance bottlenecks in your program. If you
+  do not have administrative access to any CUDA-capable machine, please email
+  the TA.
 
 
 ## Part 1: Setting up your development environment
@@ -126,11 +132,10 @@ just rebuild your VS/Nsight project to make it update itself.
      and try again if something goes wrong with the configuration.)
 3. Navigate into that directory: `cd build`
 4. Open the CMake GUI to configure the project:
-   * `cmake-gui ..`
-   * or: `"C:\Program Files (x86)\cmake\bin\cmake-gui.exe" ..`
+   * `cmake-gui ..` or `"C:\Program Files (x86)\cmake\bin\cmake-gui.exe" ..`
+     * Don't forget the `..` part!
    * Make sure that the "Source" directory is like
-     `.../Project0-CUDA-Getting-Started` and the "Binary" directory is like
-     `.../Project0-CUDA-Getting-Started/build`.
+     `.../Project0-CUDA-Getting-Started`.
    * Click *Configure*.  Select your version of Visual Studio, Win64.
      (**NOTE:** you must use Win64, as we don't provide libraries for Win32.)
    * If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`,
