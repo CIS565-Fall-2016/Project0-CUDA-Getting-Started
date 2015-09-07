@@ -23,7 +23,7 @@ RelWithDebugInfo: build
 
 
 build:
-	(mkdir -p build && cd build)
+	mkdir -p build
 
 clean:
 	((cd build && make clean) 2>&- || true)
