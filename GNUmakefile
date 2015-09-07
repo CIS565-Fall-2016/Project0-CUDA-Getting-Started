@@ -6,7 +6,7 @@ CMAKE := $(shell \
 	([ -e ${CMAKE_ALT2} ] && echo "${CMAKE_ALT2}") \
 	)
 
-all: RelWithDebugInfo
+all: Release
 
 
 Debug: build
