@@ -158,9 +158,10 @@ GLuint initShader() {
     return program;
 }
 
-//====================================
-// Main loop
-//====================================
+// ====================================
+// Main loop stuff
+// ====================================
+
 void runCUDA() {
     // Map OpenGL buffer object for writing from CUDA on a single GPU
     // No data is moved (Win & Linux). When mapped to CUDA, OpenGL should not use this buffer
@@ -204,9 +205,9 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
     }
 }
 
-//====================================
-// cleanup Stuff
-//====================================
+// ====================================
+// Clean-up stuff
+// ====================================
 
 void cleanupCUDA() {
     if (m_pbo) {
