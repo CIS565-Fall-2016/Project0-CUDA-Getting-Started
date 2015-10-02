@@ -231,6 +231,7 @@ rest of your development on the lab computer.
 ## Submit
 1. Open a GitHub pull request so that we can see that you have finished.
    The title should be "Submission: YOUR NAME".
+   * In the body of the pull request, include a link to your repository.
 2. Send an email to the TA (gmail: kainino1+cis565@) with:
    * **Subject**: in the form of `[CIS565] Project 0: PENNKEY`
    * Direct link to your pull request on GitHub
