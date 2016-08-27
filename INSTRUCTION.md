@@ -21,7 +21,7 @@ machine with these specs, you may use computers in the SIG Lab.
 **If you need to use the lab computer for your development:**
 
 * Thanks to Neal and @likangning93
-> CUDA 7.5, Visual Studio 2010, 2013 and 2015, CMake and Git are already installed on those machines.  I’m away from the office until August 22nd. Can you test the software for us.  I can help you make adjustments and configuration changes when I return.  The software is installed on the HMS Lab PCs (stations MOR103-50 thru MOR103-57) and on all of the CETS Lab PCs including the machines in Moore 100B and Moore 100C.
+> CUDA 7.5, Visual Studio 2010, 2013 and 2015, CMake and Git are already installed on the HMS Lab PCs (stations MOR103-50 thru MOR103-57) and on all of the CETS Lab PCs including the machines in Moore 100B and Moore 100C.
 
 * You will not presently be able to do GPU performance profiling. This will be
   very important for debugging performance bottlenecks in your program. If you
