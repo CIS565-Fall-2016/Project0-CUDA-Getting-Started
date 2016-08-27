@@ -214,7 +214,7 @@ rest of your development on the lab computer.
 ## Submit
 Open a GitHub pull request so that we can see that you have finished.
 The title should be "Proj 0 Submission: YOUR NAME".
-The template of the comment section of your pull request is attached below, you do some copy and modify:  
+The template of the comment section of your pull request is attached below, you can do some copy and paste:  
 
 * [Repo Link](https://link-to-your-repo)
 * `Your PENNKEY`
