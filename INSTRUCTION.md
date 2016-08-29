@@ -1,7 +1,7 @@
 Project 0 CUDA Getting Started: Instructions
 ========================
 
-This is due **Saturday, September 3 2016**. (See [late policy](#late-policy) at the bottom)
+This is due **Sunday, September 4 2016**. (See [late policy](#late-policy) at the bottom)
 
 **Summary:** In this project, you will set up your CUDA development tools and
 verify that you can build, run, and do performance analysis.
@@ -14,19 +14,19 @@ graphics card.
 
 This project (and all other CUDA projects in this course) requires an NVIDIA
 graphics card with CUDA capability. Any card with Compute Capability 2.0
-(`sm_20`) or greater will work. Gheck your GPU on this [compatibility
+(`sm_20`) or greater will work. Gheck your GPU in this [compatibility
 table](https://developer.nvidia.com/cuda-gpus).  If you do not have a personal
-machine with these specs, you may use computers in the SIG Lab.
+machine with these specs, you may use computers in the Moore or SIG Labs.
 
 **If you need to use the lab computer for your development:**
 
 * Thanks to Neal and @likangning93
-> CUDA 7.5, Visual Studio 2010, 2013 and 2015, CMake and Git are already installed on the HMS Lab PCs (stations MOR103-50 thru MOR103-57) and on all of the CETS Lab PCs including the machines in Moore 100B and Moore 100C.
+> CUDA 7.5, Visual Studio 2010, 2013 and 2015, CMake and Git are already installed on the SIG Lab PCs (stations MOR103-50 thru MOR103-57) and on all of the CETS Lab PCs including the machines in Moore 100B and Moore 100C.
 
 * You will not presently be able to do GPU performance profiling. This will be
   very important for debugging performance bottlenecks in your program. If you
   do not have administrative access to any CUDA-capable machine, please email
-  the TA.
+  a TA.
 
 
 ## Part 1: Setting up your development environment
@@ -212,8 +212,11 @@ rest of your development on the lab computer.
    the list of `SOURCE_FILES`), mention it explicitly.
 
 ## Submit
+
+If you are using a private fork and do not want to make a public pull request, contact a TA to submit.  You still must submit before the due date.
+
 Open a GitHub pull request so that we can see that you have finished.
-The title should be "Proj 0 Submission: YOUR NAME".
+The title should be "Project 0: YOUR NAME".
 The template of the comment section of your pull request is attached below, you can do some copy and paste:  
 
 * [Repo Link](https://link-to-your-repo)
@@ -237,4 +240,4 @@ And you're done!
         - Extend 4 projects by 1 day each
         - OR: Extend 1 project by 4 days
         - OR: Extend 2 projects by 2 days each
-* Can’t be used for the final project
+* Can't be used for the final project
