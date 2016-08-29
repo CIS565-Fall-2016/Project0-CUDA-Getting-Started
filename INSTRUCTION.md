@@ -1,7 +1,7 @@
 Project 0 CUDA Getting Started: Instructions
 ========================
 
-This is due **Saturday, September 3 2016**.
+This is due **Saturday, September 3 2016**. (See [late policy](#Late-Policy) at the bottom)
 
 **Summary:** In this project, you will set up your CUDA development tools and
 verify that you can build, run, and do performance analysis.
@@ -225,3 +225,16 @@ The template of the comment section of your pull request is attached below, you 
 * Feedback on the project itself, if any.
 
 And you're done!
+
+## Late-Policy
+
+* Due at midnight on the due date
+* Submitted using GitHub
+* Late Policy
+    - Up to 1 week late:  50% deduction
+    - Use up to 4 bonus days over the semester to extend the due date without penalty
+    - Examples
+        - Extend 4 projects by 1 day each
+        - OR: Extend 1 project by 4 days
+        - OR: Extend 2 projects by 2 days each
+* Can’t be used for the final project
