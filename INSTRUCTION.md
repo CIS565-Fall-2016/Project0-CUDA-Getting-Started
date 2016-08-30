@@ -25,8 +25,8 @@ machine with these specs, you may use computers in the Moore or SIG Labs.
 
 * You will not presently be able to do GPU performance profiling. This will be
   very important for debugging performance bottlenecks in your program. If you
-  do not have administrative access to any CUDA-capable machine, please email
-  a TA.
+  do not have administrative access to any CUDA-capable machine, please ~~email
+  a TA~~ post in [CIS 565 Fall 2016 Group](https://groups.google.com/forum/#!forum/cis-565-fall-2016).
 
 
 ## Part 1: Setting up your development environment
