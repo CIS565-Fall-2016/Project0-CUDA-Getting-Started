@@ -8,6 +8,6 @@ Project 0 CUDA Getting Started
 
 ### Screen Shots
 
-![](images/proj0_output_window.png)
-![](images/nsight_timeline.png)
+![Output Window](images/proj0_output_window.png)
+![NSight Timeline](images/nsight_timeline.png)
 
