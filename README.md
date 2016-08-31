@@ -16,5 +16,5 @@ My laptop comes with Nvidia Optimus. Whenever I hit "Launch" for the performance
 analysis while "OpenGL" checked in "Trace Settings", the program crashes. So I
 traced CUDA only in the screenshot.
 
-![Result](images/screenshot-0.png)
+![Result](images/screenshot-result.png)
 ![Timeline](images/screenshot-analysis.png)
