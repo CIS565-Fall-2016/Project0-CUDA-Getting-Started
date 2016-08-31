@@ -1,13 +1,16 @@
-Project 0 CUDA Getting Started
+# University of Pennsylvania, CIS 565: GPU Programming and Architecture
+Project 0 CUDA: Getting Started
 ====================
 
-**University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
+## User resources
+- **Name:** David Grosman.
+- **Tested on:** Microsoft Windows 7 Professional, i7-5600U @ 2.6GHz, 256GB, GeForce 840M (Personal laptop).
 
-* (TODO) YOUR NAME HERE
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+## Screenshots
 
-### (TODO: Your README)
+**Part 4 - Output**: 
+![](images/Project0_Output.PNG)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
 
+**Part 5 - NSight Timeline**: 
+![](images/NSight_Timeline.PNG)
