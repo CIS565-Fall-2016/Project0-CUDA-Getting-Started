@@ -1,7 +1,6 @@
-Project 0 CUDA Getting Started
+# University of Pennsylvania, CIS 565: GPU Programming and Architecture
+Project 0 CUDA: Getting Started
 ====================
-
-# University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0
 
 ## User resources
 - **Name:** David Grosman.
@@ -9,8 +8,9 @@ Project 0 CUDA Getting Started
 
 ## Screenshots
 
-![](images\Project0_Output.png)
-*Part 4 - Output*
+**Part 4 - Output**: 
+![](images/Project0_Output.PNG)
 
-![](images\NSight_Timeline.png)
-*Part 5 - NSight Timeline*
+
+**Part 5 - NSight Timeline**: 
+![](images/NSight_Timeline.PNG)
