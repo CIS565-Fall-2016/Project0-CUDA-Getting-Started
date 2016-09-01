@@ -10,10 +10,10 @@ Project 0 CUDA Getting Started
 Screenshot: 
 Part 4: Modify
 Name in title bar
-![](images/example1.png)
+![](images/example1.PNG)
 
 Part 5: Analyze 
 Timeline screenshot 
-![](images/performance1.png)
+![](images/performance1.PNG)
  
 
