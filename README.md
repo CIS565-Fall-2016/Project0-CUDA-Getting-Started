@@ -7,7 +7,13 @@ Project 0 CUDA Getting Started
 * Tested on: Windows 10, i7-4870 @ 2.50GHz 16GB, NVIDIA GeForce GT 750M (Personal Laptop)
 
 ### (TODO: Your README)
+Screenshot: 
+Part 4: Modify
+Name in title bar
+![](images/example1.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+Part 5: Analyze 
+Timeline screenshot 
+![](images/performance1.png)
+ 
 
