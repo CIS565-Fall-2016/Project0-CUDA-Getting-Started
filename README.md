@@ -3,11 +3,18 @@ Project 0 CUDA Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Ruoyu Fan
+* Tested on: Windows 10, i7-4720HQ @ 2.60GHz, 16GB Memory,
+             GTX 970M 3072MB
+### Things I have done
 
-### (TODO: Your README)
+* Name in title bar
+* Screenshots
+* Screenshot of analysis
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+My laptop comes with Nvidia Optimus. Whenever I hit "Launch" for the performance
+analysis while "OpenGL" checked in "Trace Settings", the program crashes. So I
+traced CUDA only in the screenshot.
 
+![Result](images/screenshot-result.png)
+![Timeline](images/screenshot-analysis.png)
